@@ -28,13 +28,16 @@ add_library(cache_lib STATIC
     src/cache/InMemoryCache.cpp
 )
 
-target_include_directories(cache_lib PUBLIC 
+target_include_directories(
+    cache_lib 
+    PUBLIC 
     ${CMAKE_SOURCE_DIR}/src
 )
 
 # === Test Executable ===
 
-add_executable(cache_tests
+add_executable(
+    cache_tests          
     tests/cache/InMemoryCacheTest.cpp
 )
 
