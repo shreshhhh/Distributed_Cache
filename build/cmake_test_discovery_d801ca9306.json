@@ -1,0 +1,62 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InMemoryCacheTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "GetOnEmptyCacheReturnsNotFound",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "PutAndGetReturnsCorrectValue",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 22
+        },
+        {
+          "name": "PutOverwritesExistingValue",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 32
+        },
+        {
+          "name": "DeleteRemovesKey",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 41
+        },
+        {
+          "name": "DeleteNonexistentKeyIsIdempotent",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "SizeTracksInsertionsAndDeletions",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 58
+        },
+        {
+          "name": "CapacityLimitRejectsNewKeys",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 71
+        },
+        {
+          "name": "CapacityLimitAllowsUpdateOfExistingKey",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 84
+        },
+        {
+          "name": "EmptyStringKeyAndValue",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 98
+        },
+        {
+          "name": "LargeValueStored",
+          "file": "C:\\Users\\shres\\Downloads\\Project\\Distrubuted_Cache\\tests\\cache\\InMemoryCacheTest.cpp",
+          "line": 105
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests[1]_tests.cmake")
+  include("C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests[1]_tests.cmake")
+else()
+  add_test(cache_tests_NOT_BUILT cache_tests_NOT_BUILT)
+endif()

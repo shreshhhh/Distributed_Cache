@@ -9,17 +9,17 @@ set( CMAKE_CXX_EXTENSIONS OFF )
 #  Enable all warnings . Treat warnings are errors
 # "-Wall -Wextra" catches common mistakes. "-Werror" forces you to fix them.
 
-add_compile_options(-Wall -Wextra -Werror -Wepdantic )
+add_compile_options(-Wall -Wextra -Werror -Wpedantic )
 
 # Fetch GoogleTest automatically using CMake's FetchContent
 # No manual installation required
 
-inclue ( FetchContent )
+include ( FetchContent )
 FetchContent_Declare(
     GoogleTest
     URL https://github.com/google/googletest/archive/v1.14.0.zip
 )
-FetchContent_MakAvailabe(GoogleTest)
+FetchContent_MakeAvailable(googletest)
 
 # ======= Cache LIBRARY =============
 # We build the cache as static library so tests can link against it .
@@ -48,6 +48,6 @@ target_link_libraries(cache_tests
 )
 
 # we Register tests with CTest so `cmake --build . && ctest` runs them
-
+enable_testing()
 include(GoogleTest)
 gtest_discover_tests(cache_tests)

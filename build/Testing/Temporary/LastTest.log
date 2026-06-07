@@ -1,0 +1,273 @@
+Start testing: Jun 07 19:45 India Standard Time
+----------------------------------------------------------
+1/10 Testing: InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound
+1/10 Test: InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound
+[       OK ] InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: InMemoryCacheTest.PutAndGetReturnsCorrectValue
+2/10 Test: InMemoryCacheTest.PutAndGetReturnsCorrectValue
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.PutAndGetReturnsCorrectValue" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.PutAndGetReturnsCorrectValue" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.PutAndGetReturnsCorrectValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.PutAndGetReturnsCorrectValue
+[       OK ] InMemoryCacheTest.PutAndGetReturnsCorrectValue (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.PutAndGetReturnsCorrectValue" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.PutAndGetReturnsCorrectValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: InMemoryCacheTest.PutOverwritesExistingValue
+3/10 Test: InMemoryCacheTest.PutOverwritesExistingValue
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.PutOverwritesExistingValue" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.PutOverwritesExistingValue" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.PutOverwritesExistingValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.PutOverwritesExistingValue
+[       OK ] InMemoryCacheTest.PutOverwritesExistingValue (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.PutOverwritesExistingValue" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.PutOverwritesExistingValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: InMemoryCacheTest.DeleteRemovesKey
+4/10 Test: InMemoryCacheTest.DeleteRemovesKey
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.DeleteRemovesKey" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.DeleteRemovesKey" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.DeleteRemovesKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.DeleteRemovesKey
+[       OK ] InMemoryCacheTest.DeleteRemovesKey (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.DeleteRemovesKey" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.DeleteRemovesKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent
+5/10 Test: InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent
+[       OK ] InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: InMemoryCacheTest.SizeTracksInsertionsAndDeletions
+6/10 Test: InMemoryCacheTest.SizeTracksInsertionsAndDeletions
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.SizeTracksInsertionsAndDeletions" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.SizeTracksInsertionsAndDeletions" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.SizeTracksInsertionsAndDeletions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.SizeTracksInsertionsAndDeletions
+[       OK ] InMemoryCacheTest.SizeTracksInsertionsAndDeletions (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.SizeTracksInsertionsAndDeletions" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.SizeTracksInsertionsAndDeletions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: InMemoryCacheTest.CapacityLimitRejectsNewKeys
+7/10 Test: InMemoryCacheTest.CapacityLimitRejectsNewKeys
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.CapacityLimitRejectsNewKeys" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.CapacityLimitRejectsNewKeys" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.CapacityLimitRejectsNewKeys
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.CapacityLimitRejectsNewKeys
+[       OK ] InMemoryCacheTest.CapacityLimitRejectsNewKeys (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.CapacityLimitRejectsNewKeys" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.CapacityLimitRejectsNewKeys" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey
+8/10 Test: InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey
+[       OK ] InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: InMemoryCacheTest.EmptyStringKeyAndValue
+9/10 Test: InMemoryCacheTest.EmptyStringKeyAndValue
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.EmptyStringKeyAndValue" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.EmptyStringKeyAndValue" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.EmptyStringKeyAndValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.EmptyStringKeyAndValue
+[       OK ] InMemoryCacheTest.EmptyStringKeyAndValue (0 ms)
+[----------] 1 test from InMemoryCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.EmptyStringKeyAndValue" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.EmptyStringKeyAndValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: InMemoryCacheTest.LargeValueStored
+10/10 Test: InMemoryCacheTest.LargeValueStored
+Command: "C:/Users/shres/Downloads/Project/Distrubuted_Cache/build/cache_tests.exe" "--gtest_filter=InMemoryCacheTest.LargeValueStored" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/shres/Downloads/Project/Distrubuted_Cache/build
+"InMemoryCacheTest.LargeValueStored" start time: Jun 07 19:45 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\shres\Downloads\Project\Distrubuted_Cache\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InMemoryCacheTest.LargeValueStored
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryCacheTest
+[ RUN      ] InMemoryCacheTest.LargeValueStored
+[       OK ] InMemoryCacheTest.LargeValueStored (1 ms)
+[----------] 1 test from InMemoryCacheTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryCacheTest.LargeValueStored" end time: Jun 07 19:45 India Standard Time
+"InMemoryCacheTest.LargeValueStored" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 07 19:45 India Standard Time

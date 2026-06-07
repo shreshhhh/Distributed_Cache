@@ -1,0 +1,11 @@
+InMemoryCacheTest.GetOnEmptyCacheReturnsNotFound 1 0.348122
+InMemoryCacheTest.PutAndGetReturnsCorrectValue 1 0.0128912
+InMemoryCacheTest.PutOverwritesExistingValue 1 0.0125728
+InMemoryCacheTest.DeleteRemovesKey 1 0.0116896
+InMemoryCacheTest.DeleteNonexistentKeyIsIdempotent 1 0.014807
+InMemoryCacheTest.SizeTracksInsertionsAndDeletions 1 0.0136963
+InMemoryCacheTest.CapacityLimitRejectsNewKeys 1 0.0148141
+InMemoryCacheTest.CapacityLimitAllowsUpdateOfExistingKey 1 0.0110157
+InMemoryCacheTest.EmptyStringKeyAndValue 1 0.0129634
+InMemoryCacheTest.LargeValueStored 1 0.014789
+---
