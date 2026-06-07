@@ -1,7 +1,8 @@
-# Distributed Cache System (Phase 1)
+# Distributed Cache (System Design: Redis-like Architecture) — In Progress
 
-A lightweight, interface-driven in-memory cache built in modern C++.  
-Focus is on clean abstraction, predictable behavior, and extensibility toward distributed systems.
+A system design project aimed at building a Redis-like distributed cache from scratch in modern C++, focusing on scalability, modularity, and clean architectural separation.
+
+The goal is to evolve this into a Redis-like cache with support for in-memory storage, eviction policies, and eventually distributed nodes.
 
 ---
 
@@ -15,40 +16,46 @@ ICache (abstraction)
 ↓
 InMemoryCache (implementation)
 
+---
+
+## 🔹 Current Phase (Phase 1)
+
+Phase 1 focuses on building the **core caching foundation**:
+
+- Defined a clean **ICache abstraction layer**
+- Implemented a basic **in-memory cache using unordered_map**
+- Added support for **basic operations: get / put / remove / clear / size**
+- Introduced **capacity-aware design (bounded cache foundation)**
+- Designed a **standardized CacheResult response model for safe API behavior**
+- Built system with **interface-first design to support future backend swapping**
 
 ---
 
-## 🔹 What exists in Phase 1
+## 🔹 Design Direction
 
-- Defined a **pure abstract cache interface (ICache)** enforcing consistent cache behavior
-- Implemented **in-memory cache using unordered_map** with O(1) average operations
-- Introduced **bounded cache support** (capacity-aware design)
-- Designed a **status-based result system (CacheResult)** instead of raw returns
-- Ensured safe access patterns using `find()` (no accidental inserts)
+The system is intentionally structured to evolve:
 
----
 
-## 🔹 Engineering decisions
+ICache (contract)
+↓
+InMemoryCache (Phase 1)
+↓
+Future: LRU Cache / Redis Backend / Distributed Nodes
 
-- Interface-first architecture to support future backend swapping
-- Explicit virtual destructor for safe polymorphic deletion
-- Separation of `.h / .cpp` for compile-time isolation
-- Minimal API surface to reduce misuse and hidden coupling
 
 ---
 
-## 🔹 Testing
+## 🔹 Engineering Focus
 
-- GoogleTest-based unit test setup
-- Each test runs in isolated fixture (no shared state)
-- Validates:
-  - basic CRUD behavior
-  - boundary conditions
-  - capacity handling
+- Strong separation between **abstraction and implementation**
+- Avoided tight coupling to ensure future extensibility
+- Designed with **Redis-like architecture evolution in mind**
+- Minimal and predictable API surface for cache operations
 
 ---
 
-## 🔹 Current state
+## 🔹 Current Status
 
-- Phase 1: Single-node in-memory cache complete
-- Phase 2 direction: eviction policy + concurrency + distributed layer
+- Core cache engine (Phase 1) completed
+- Unit testing setup in progress using GoogleTest
+- Preparing for next phase: eviction policies + performance improvements
